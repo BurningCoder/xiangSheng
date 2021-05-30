@@ -1,0 +1,6 @@
+/* pages/demo/demo.wxss */
+.custom-btn {
+    width: 50%;
+    height: 40px;
+    font: 14pt;
+}
