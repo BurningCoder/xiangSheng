@@ -1,0 +1,15 @@
+// /pages/comm.wxs
+
+var foo = "'hello world' from chausson";
+var bar = function() {
+  for (var i = 0; i < 3; ++i) {
+    console.log(i);
+    if( i >= 1) break;
+  }
+  return "bar";
+}
+// 注释
+module.exports = {
+  foo: foo,
+  bar: bar
+};

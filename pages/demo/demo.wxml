@@ -1,0 +1,21 @@
+<!--pages/demo/demo.wxml-->
+<!-- <view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view> -->
+<!-- <view wx:for="{{numbers}}" wx:for-item="i">
+  <view wx:for="{{numbers}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view> -->
+<!-- <block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block> -->
+<view wx:if="{{isHiddenLength}}">
+   hidden
+</view>
+<button class="custom-btn" type="primary" bindtap="turn" >页面主操作 Normal</button>
+
+
