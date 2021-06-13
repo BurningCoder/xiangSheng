@@ -1,0 +1,18 @@
+/* pages/voice/voice.wxss */
+.scroll-view-item{
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+  flex: auto;
+}
+.scroll-container {
+  margin: 10px 10px 10px 10px;
+  height: 100%;
+}
+.scroll-view-item-info {
+}
+.scroll-view-item-content {
+}
