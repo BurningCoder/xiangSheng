@@ -26,7 +26,6 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FF8C00",
     "navigationBarTitleText": "我的第一个应用",
     "navigationBarTextStyle": "white"
   },
