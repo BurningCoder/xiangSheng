@@ -1,0 +1,33 @@
+/* pages/voice/voice.wxss */
+/*最外层的style*/
+.scroll-container {
+  margin: 10px 10px 10px 10px;
+  height: 100%;
+}
+
+
+.scroll-view-item{
+  display:flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-color: red;
+  border-width: 2px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.scroll-view-item-info {
+  width: 100px;
+  display:flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left:50px;
+}
+
+.scroll-view-item-content{
+  display:flex;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}

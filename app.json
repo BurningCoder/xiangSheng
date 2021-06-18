@@ -3,32 +3,31 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/demo/demo",
-    "pages/newPage/newPage"
+    "pages/newPage/newPage",
+    "pages/voice/voice",
+    "pages/aboutMe/aboutMe"
   ],
   "tabBar": {
     "selectedColor": "#00FFFF",
     "color": "#FFFFFF",
-    "backgroundColor": "#4169E1",
+    "backgroundColor": "#000000",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/voice/voice",
+        "text":"湘声"
+        
       },
       {
-        "pagePath": "pages/demo/demo",
-        "text": "Demo"
+        "pagePath": "pages/aboutMe/aboutMe",
+        "text": "关于我"
       }
     ]
   },
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarTitleText": "我的第一个应用",
-    "navigationBarTextStyle": "white"
-  },
+ 
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
